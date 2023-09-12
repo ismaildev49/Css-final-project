@@ -122,8 +122,11 @@ main {
   display: grid;
   grid-template-columns: 124px 1fr;
   grid-template-rows: 32px 36px 61px;
-
+  text-decoration: none;
   margin-top: 32px;
+}
+.subjects:hover{
+  border: 1px solid black;
 }
 .subjects img {
   /* height: 130px; */
@@ -143,6 +146,7 @@ main {
   font-weight: 800;
   line-height: 24px;
   align-self: center;
+  color: black;
 }
 .subjects p {
   grid-column: 2/3;
@@ -185,9 +189,14 @@ main {
   }
   .menu li {
     list-style-type: none;
+    
+    
+  }
+  .menu li a {
+    color: #5e607a;
+    text-decoration: none;
     font-size: 15px;
     line-height: 26px;
-    color: #5e607a;
   }
   .logo {
     width: 64.09px;
